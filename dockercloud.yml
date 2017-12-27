@@ -1,0 +1,5 @@
+vote:
+  autoredeploy: true
+  image: 'docker/example-voting-app-vote:latest'
+  restart: always
+  target_num_containers: 5

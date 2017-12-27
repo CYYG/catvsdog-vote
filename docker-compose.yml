@@ -1,0 +1,22 @@
+version: "2"
+
+services:
+  vote:
+    environment:
+      - REDIS_HOST
+    build: ./vote
+    command: python app.py
+    volumes:
+      - ./vote:/app
+    ports:
+      - "5000:80"
+    networks:
+      - front-tier
+      - back-tier
+
+volumes:
+  db-data:
+
+networks:
+  front-tier:
+  back-tier:
