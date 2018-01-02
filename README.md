@@ -1,8 +1,10 @@
 Voting App
 =========
 This repository contain the VOTE part of the complete voting application
-Result part: [https://github.com/CYYG/catvsdog-worker](https://github.com/CYYG/catvsdog-worker)
-Lambda Worker: [https://github.com/CYYG/catvsdog-result](https://github.com/CYYG/catvsdog-result)
+* Result part: [https://github.com/CYYG/catvsdog-worker](https://github.com/CYYG/catvsdog-worker)
+* Vote part: [https://github.com/CYYG/catvsdog-vote](https://github.com/CYYG/catvsdog-vote)
+* Lambda Worker: [https://github.com/CYYG/catvsdog-result](https://github.com/CYYG/catvsdog-result)
+* Terraform: [https://github.com/ralbon/AWS-BBL-Infra](https://github.com/ralbon/AWS-BBL-Infra)
 
 Getting started
 ---------------
