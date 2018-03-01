@@ -1,0 +1,30 @@
+---
+version: '0.1' #qsdf
+encoding: UTF-8
+name: Vote application
+fqn: http://web1:5001
+modelVersion: '1.0'
+interfaces:
+  - name: localhost:5000
+    fqn: webApp:5000
+    direction:
+      - in
+    description: user interface
+  - name: postgres://toto:5432 database
+    fqn: redis://toto:5432
+    direction:
+      - out
+    description: database for queue
+    type: database
+      database: result
+      port: 5434
+      dialect: redis
+
+    
+
+
+
+
+
+
+
