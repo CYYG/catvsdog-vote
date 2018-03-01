@@ -19,7 +19,7 @@ services:
     ports:
       -  "6379:6379"
     volumes:
-      - db-data
+      - db-data:db-data
 
   inventory-service:
       image: docker.io/etbe/inventory
